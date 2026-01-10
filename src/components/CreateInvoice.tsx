@@ -1,16 +1,20 @@
-import { Box, Typography } from "@mui/material";
+import { Box } from "@mui/material";
+import { useState } from "react";
 import InvoiceHeader from "../components/InvoiceHeader";
 import BillTo from "../components/BillTo";
+import ItemsTable from "../components/ItemsTable";
+import type { InvoiceItem } from "../data/InvoiceItem";
+import TaxSummary from "./TaxSummary";
 
 const CreateInvoice = () => {
+  const [items, setItems] = useState<InvoiceItem[]>([]);
+
   return (
     <Box p={3} bgcolor="#f5f5f5" minHeight="100vh">
       <InvoiceHeader />
       <BillTo />
-
-      <Typography variant="h6" mt={4}>
-        Items section coming next…
-      </Typography>
+      <ItemsTable items={items} setItems={setItems} />
+      <TaxSummary items={items} />
     </Box>
   );
 };
