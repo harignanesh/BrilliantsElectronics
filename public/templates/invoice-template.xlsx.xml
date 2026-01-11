@@ -1,0 +1,754 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Gnanesh</Author>
+  <LastAuthor>Hari SG</LastAuthor>
+  <Created>2019-02-05T16:27:05Z</Created>
+  <LastSaved>2026-01-11T13:09:28Z</LastSaved>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <SupBook>
+   <Path>C:\Users\Gnanesh\Desktop\BRIBrilliantElectronicInvoiceFormat.xlsm</Path>
+   <SheetName>Invoice</SheetName>
+   <SheetName>Sheet1</SheetName>
+   <SheetName>BRIBrilliantElectronicInvoiceFo</SheetName>
+   <ExternName>
+    <Name>SaveInvWithNewName</Name>
+   </ExternName>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>0</SheetIndex>
+   </Xct>
+   <Xct>
+    <Count>0</Count>
+    <SheetIndex>1</SheetIndex>
+   </Xct>
+  </SupBook>
+  <WindowHeight>8676</WindowHeight>
+  <WindowWidth>23040</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:Indent="1"
+    ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s16" ss:Name="Currency">
+   <NumberFormat
+    ss:Format="_(&quot;$&quot;* #,##0.00_);_(&quot;$&quot;* \(#,##0.00\);_(&quot;$&quot;* &quot;-&quot;??_);_(@_)"/>
+  </Style>
+  <Style ss:ID="s17" ss:Name="Currency [0]">
+   <NumberFormat ss:Format="&quot;$&quot;#,##0"/>
+  </Style>
+  <Style ss:ID="s19" ss:Name="Heading 1">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12" ss:Color="#44546A"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s20" ss:Name="Heading 3">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri Light" x:Family="Swiss" ss:Size="11"
+    ss:Color="#44546A" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s21" ss:Name="Heading 4">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:Indent="1"
+    ss:WrapText="1"/>
+  </Style>
+  <Style ss:ID="s23" ss:Name="Hyperlink">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:Indent="1" ss:WrapText="1"/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+  </Style>
+  <Style ss:ID="s24" ss:Name="InvoiceDetails">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s22" ss:Name="Note">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:Indent="1"
+    ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior ss:Color="#E7E6E6" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s18" ss:Name="Percent">
+   <NumberFormat ss:Format="0%"/>
+  </Style>
+  <Style ss:ID="s25" ss:Name="Phone">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:Indent="1"/>
+   <NumberFormat ss:Format="[&lt;=9999999]###\-####;\(###\)\ ###\-####"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="m1925225539464" ss:Parent="s16">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="13" ss:Color="#44546A"/>
+   <NumberFormat ss:Format="@"/>
+  </Style>
+  <Style ss:ID="m1925225539484">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="13" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="m1925225539504">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="13"/>
+  </Style>
+  <Style ss:ID="m1925225539524">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="13" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s26">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="17" ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="s27" ss:Parent="s19">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="13" ss:Color="#44546A"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s28">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="13" ss:Underline="Single"/>
+  </Style>
+  <Style ss:ID="s29" ss:Parent="s19">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="13" ss:Color="#44546A"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s30" ss:Parent="s19">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="13" ss:Color="#00B0F0"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s31">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:Indent="1"
+    ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="13"/>
+  </Style>
+  <Style ss:ID="s32">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:Indent="1"
+    ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="13"/>
+  </Style>
+  <Style ss:ID="s33">
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="13"/>
+  </Style>
+  <Style ss:ID="s34" ss:Parent="s19">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="13" ss:Color="#44546A"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s35">
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="13"/>
+  </Style>
+  <Style ss:ID="s36" ss:Parent="s19">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="13" ss:Color="#44546A"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s37" ss:Parent="s24">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="13" ss:Bold="1"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s38" ss:Parent="s24">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="13"/>
+   <NumberFormat/>
+  </Style>
+  <Style ss:ID="s39">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="13"/>
+   <NumberFormat ss:Format="[ENG][$-409]d\-mmm\-yyyy;@"/>
+  </Style>
+  <Style ss:ID="s40">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="13" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s41">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="13"/>
+  </Style>
+  <Style ss:ID="s42">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="13"/>
+  </Style>
+  <Style ss:ID="s43" ss:Parent="s20">
+   <Borders/>
+   <Font ss:FontName="Calibri Light" x:Family="Swiss" ss:Size="13"
+    ss:Color="#44546A" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s44" ss:Parent="s18">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="13"/>
+  </Style>
+  <Style ss:ID="s45" ss:Parent="s21">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:Indent="1"
+    ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="13" ss:Bold="1"/>
+   <Interior/>
+  </Style>
+  <Style ss:ID="s46" ss:Parent="s16">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="13" ss:Color="#44546A"/>
+   <NumberFormat ss:Format="0_);\(0\)"/>
+  </Style>
+  <Style ss:ID="s47">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="14"/>
+  </Style>
+  <Style ss:ID="s48" ss:Parent="s16">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center" ss:Indent="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="13" ss:Color="#44546A"/>
+   <NumberFormat ss:Format="0.00_);\(0.00\)"/>
+  </Style>
+  <Style ss:ID="s53" ss:Parent="s16">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="13" ss:Color="#44546A"
+    ss:Bold="1"/>
+   <NumberFormat ss:Format="0_);\(0\)"/>
+  </Style>
+  <Style ss:ID="s54" ss:Parent="s20">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri Light" x:Family="Swiss" ss:Size="13"
+    ss:Color="#44546A" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s55" ss:Parent="s16">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center" ss:Indent="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="13" ss:Color="#44546A"/>
+   <NumberFormat ss:Format="#,##0.00;\-#,##0.00"/>
+  </Style>
+  <Style ss:ID="s56">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="13" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s57" ss:Parent="s20">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri Light" x:Family="Swiss" ss:Size="13"
+    ss:Color="#44546A" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s58" ss:Parent="s19">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="13" ss:Color="#44546A"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s91" ss:Parent="s23">
+   <Alignment ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="12"/>
+  </Style>
+  <Style ss:ID="s93" ss:Parent="s19">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="16" ss:Color="#00B0F0"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s97" ss:Parent="s19">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="13" ss:Color="#00B0F0"
+    ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s99">
+   <Alignment ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="13"/>
+  </Style>
+  <Style ss:ID="s101" ss:Parent="s25">
+   <Alignment ss:Vertical="Top"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="13"/>
+  </Style>
+  <Style ss:ID="s103" ss:Parent="s22">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="13" ss:Bold="1"/>
+  </Style>
+  <Style ss:ID="s105" ss:Parent="s17">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="13"/>
+  </Style>
+  <Style ss:ID="s107" ss:Parent="s25">
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="13" ss:Bold="1"/>
+  </Style>
+ </Styles>
+ <Names>
+  <NamedRange ss:Name="Additional_discount" ss:RefersTo="=Invoice!R21C7"/>
+  <NamedRange ss:Name="Amount"
+   ss:RefersTo="=Invoice!RC3*Invoice!RC5-IF(Invoice!RC3*Invoice!RC5&gt;AmountForDiscount,1,0)*Invoice!RC3*Invoice!RC5*DiscountPercent"/>
+  <NamedRange ss:Name="AmountForDiscount" ss:RefersTo="=Invoice!R10C7"/>
+  <NamedRange ss:Name="Balance_due"
+   ss:RefersTo="=(subtotal-IF(Additional_discount&gt;0,Additional_discount*subtotal,0))+(IF(Additional_discount&gt;0,subtotal-(Additional_discount*subtotal),subtotal)*Tax)-Credit"/>
+  <NamedRange ss:Name="ColumnTitle1" ss:RefersTo="=Invoice!R16C3"/>
+  <NamedRange ss:Name="ColumnTitleRegion1..B12.1" ss:RefersTo="=Invoice!R9C3"/>
+  <NamedRange ss:Name="Credit" ss:RefersTo="=Invoice!R19C7"/>
+  <NamedRange ss:Name="Discount_applied"
+   ss:RefersTo="=IF(Invoice!RC3*Invoice!RC5&gt;AmountForDiscount,1,0)"/>
+  <NamedRange ss:Name="DiscountPercent" ss:RefersTo="=Invoice!R12C7"/>
+  <NamedRange ss:Name="RowTitleRegion1..F4" ss:RefersTo="=Invoice!R5C6"/>
+  <NamedRange ss:Name="RowTitleRegion2..F10" ss:RefersTo="=Invoice!R10C5"/>
+  <NamedRange ss:Name="subtotal" ss:RefersTo="=Invoice!R18C6"/>
+  <NamedRange ss:Name="Tax" ss:RefersTo="=Invoice!R20C7"/>
+ </Names>
+ <Worksheet ss:Name="Invoice">
+  <Names>
+   <NamedRange ss:Name="Z_F03ED93E_0465_4897_A140_01BF6C4AAB62_.wvu.PrintTitles"
+    ss:RefersTo="=Invoice!R16" ss:Hidden="1"/>
+  </Names>
+  <Table ss:ExpandedColumnCount="7" ss:ExpandedRowCount="23" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="57" ss:DefaultRowHeight="30">
+   <Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="16.2"/>
+   <Column ss:AutoFitWidth="0" ss:Width="89.4"/>
+   <Column ss:AutoFitWidth="0" ss:Width="164.39999999999998"/>
+   <Column ss:AutoFitWidth="0" ss:Width="129"/>
+   <Column ss:Width="127.19999999999999"/>
+   <Column ss:Width="177.60000000000002"/>
+   <Row ss:AutoFitHeight="0" ss:Height="60.75">
+    <Cell ss:Index="3" ss:MergeAcross="1" ss:MergeDown="2" ss:StyleID="s93"><ss:Data
+      ss:Type="String" xmlns="http://www.w3.org/TR/REC-html40"><B><Font
+        html:Color="#00B0F0">BRILLIANTS ELECTRONICS&#10;</Font><Font
+        html:Color="#000000">Making Technology work</Font></B></ss:Data><NamedCell
+      ss:Name="Discount_applied"/><NamedCell ss:Name="Amount"/></Cell>
+    <Cell ss:StyleID="s26"><Data ss:Type="String">TAX INVOICE</Data><NamedCell
+      ss:Name="Discount_applied"/><NamedCell ss:Name="Amount"/></Cell>
+    <Cell ss:StyleID="s27"/>
+    <Cell ss:MergeDown="1" ss:StyleID="s97"/>
+   </Row>
+   <Row ss:Height="17.399999999999999">
+    <Cell ss:Index="5" ss:StyleID="s28"/>
+    <Cell ss:StyleID="s29"/>
+   </Row>
+   <Row ss:Height="17.399999999999999">
+    <Cell ss:Index="5" ss:StyleID="s28"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s30"/>
+   </Row>
+   <Row ss:Height="17.399999999999999">
+    <Cell ss:Index="3" ss:StyleID="s31"/>
+    <Cell ss:StyleID="s32"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s29"/>
+    <Cell ss:StyleID="s34"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:Index="3" ss:MergeAcross="1" ss:StyleID="s99"><Data ss:Type="String">142/5,Sakthivel Nagar</Data></Cell>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s33"><NamedCell ss:Name="RowTitleRegion1..F4"/></Cell>
+    <Cell ss:StyleID="s35"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:Index="3" ss:MergeAcross="1" ss:StyleID="s99"><Data ss:Type="String">Peravallur,Chennai - 600 082.</Data></Cell>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">GSTIN :</Data></Cell>
+    <Cell ss:StyleID="s37"><Data ss:Type="String">33ARYPL4958M1ZS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:Index="3" ss:MergeAcross="1" ss:StyleID="s101"><Data ss:Type="String">Phone: 9840034153</Data></Cell>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">Invoice No :</Data></Cell>
+    <Cell ss:StyleID="s38"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.25">
+    <Cell ss:Index="3" ss:MergeAcross="1" ss:StyleID="s91" ss:HRef="mailto:someone@example.com"><Data
+      ss:Type="String">Email: brilliantelectronics.chennai@gmail.com</Data></Cell>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s36"><Data ss:Type="String">Date :</Data></Cell>
+    <Cell ss:StyleID="s39"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.100000000000001">
+    <Cell ss:Index="3" ss:StyleID="s40"><Data ss:Type="String">Bill To:</Data><NamedCell
+      ss:Name="ColumnTitleRegion1..B12.1"/></Cell>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s35"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.75">
+    <Cell ss:Index="3" ss:MergeAcross="1" ss:StyleID="s99"/>
+    <Cell ss:MergeAcross="1" ss:MergeDown="1" ss:StyleID="s43"><NamedCell
+      ss:Name="RowTitleRegion2..F10"/></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s105"><NamedCell ss:Name="Discount_applied"/><NamedCell
+      ss:Name="AmountForDiscount"/><NamedCell ss:Name="Amount"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.899999999999999">
+    <Cell ss:Index="3" ss:MergeAcross="1" ss:StyleID="s99"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.899999999999999">
+    <Cell ss:Index="3" ss:MergeAcross="1" ss:StyleID="s101"/>
+    <Cell ss:MergeAcross="1" ss:MergeDown="1" ss:StyleID="s43"/>
+    <Cell ss:MergeDown="1" ss:StyleID="s44"><NamedCell ss:Name="DiscountPercent"/><NamedCell
+      ss:Name="Amount"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.899999999999999">
+    <Cell ss:Index="3" ss:MergeAcross="1" ss:StyleID="s101"><Data ss:Type="String">Phone: </Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.899999999999999">
+    <Cell ss:Index="3" ss:StyleID="s41"/>
+    <Cell ss:StyleID="s42"/>
+    <Cell ss:StyleID="s43"/>
+    <Cell ss:StyleID="s43"/>
+    <Cell ss:StyleID="s44"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="26.25">
+    <Cell ss:Index="3" ss:MergeAcross="1" ss:StyleID="s107"><Data ss:Type="String">GSTIN : </Data></Cell>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s33"/>
+    <Cell ss:StyleID="s35"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="29.4">
+    <Cell ss:Index="3" ss:StyleID="s45"><Data ss:Type="String">S.No</Data><NamedCell
+      ss:Name="ColumnTitle1"/><NamedCell
+      ss:Name="Z_F03ED93E_0465_4897_A140_01BF6C4AAB62_.wvu.PrintTitles"/></Cell>
+    <Cell ss:StyleID="s45"><Data ss:Type="String">Description</Data><NamedCell
+      ss:Name="Z_F03ED93E_0465_4897_A140_01BF6C4AAB62_.wvu.PrintTitles"/></Cell>
+    <Cell ss:StyleID="s45"><Data ss:Type="String">Quantity</Data><NamedCell
+      ss:Name="Z_F03ED93E_0465_4897_A140_01BF6C4AAB62_.wvu.PrintTitles"/></Cell>
+    <Cell ss:StyleID="s45"><Data ss:Type="String">Price</Data><NamedCell
+      ss:Name="Z_F03ED93E_0465_4897_A140_01BF6C4AAB62_.wvu.PrintTitles"/></Cell>
+    <Cell ss:StyleID="s45"><Data ss:Type="String">Total</Data><NamedCell
+      ss:Name="Z_F03ED93E_0465_4897_A140_01BF6C4AAB62_.wvu.PrintTitles"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s46"/>
+    <Cell ss:StyleID="s47"/>
+    <Cell ss:StyleID="s46"/>
+    <Cell ss:StyleID="s48"/>
+    <Cell ss:StyleID="s48"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s53"><Data ss:Type="String">SubTotal</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="m1925225539464"/>
+    <Cell ss:StyleID="s48"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:MergeAcross="2" ss:StyleID="m1925225539484"/>
+    <Cell ss:StyleID="s54"><Data ss:Type="String">SGST 9%</Data></Cell>
+    <Cell ss:StyleID="s55"><NamedCell ss:Name="Credit"/><NamedCell
+      ss:Name="Balance_due"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:StyleID="s56"><Data ss:Type="String">For</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="m1925225539504"/>
+    <Cell ss:StyleID="s57"><Data ss:Type="String">CGST 9%</Data></Cell>
+    <Cell ss:StyleID="s55"><NamedCell ss:Name="Tax"/><NamedCell
+      ss:Name="Balance_due"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:MergeAcross="2" ss:MergeDown="1"
+     ss:StyleID="m1925225539524"><Data ss:Type="String">Authorized Signatory</Data></Cell>
+    <Cell ss:StyleID="s54"><Data ss:Type="String">Total Tax</Data></Cell>
+    <Cell ss:StyleID="s55"><NamedCell ss:Name="Balance_due"/><NamedCell
+      ss:Name="Additional_discount"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="6" ss:StyleID="s58"><Data ss:Type="String">Total Amount</Data></Cell>
+    <Cell ss:StyleID="s55"/>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:Index="3" ss:MergeAcross="2" ss:StyleID="s103"><Data ss:Type="String">Thank you for your business!</Data></Cell>
+    <Cell ss:StyleID="s58"><Data ss:Type="String">Round Off Amount   </Data></Cell>
+    <Cell ss:StyleID="s55"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Layout x:CenterHorizontal="1"/>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3" x:Data="&amp;CPage &amp;P of &amp;N"/>
+    <PageMargins x:Bottom="0.45" x:Left="0.25" x:Right="0.25" x:Top="0.5"/>
+   </PageSetup>
+   <Unsynced/>
+   <FitToPage/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <Scale>73</Scale>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <TabColorIndex>57</TabColorIndex>
+   <Zoom>74</Zoom>
+   <Selected/>
+   <DoNotDisplayGridlines/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>17</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+     <RangeSelection>R18C3:R27C7</RangeSelection>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+   <EnableSelection>UnlockedCells</EnableSelection>
+  </WorksheetOptions>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R5C6,R4C7</Range>
+   <InputMessage>Enter Company Slogan in this cell and company address in cells below</InputMessage>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R1C6:R4C6,R1C7,R4C7</Range>
+   <InputMessage>Enter invoicing Company Name in this cell and slogan in cell below</InputMessage>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R1C2:R4C2</Range>
+   <InputMessage>Create a Sales invoice in this worksheet. Add company logo in cell at right and invoice details in InvoiceDetails table starting cell B13. Balance due is automatically calculated</InputMessage>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R1C3,R4C3:R4C4</Range>
+   <InputMessage>Add company logo in this cell, company address, phone number, fax number, and email in cells below. Enter Bill To details in cells B8 to B12</InputMessage>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R12C7:R14C7</Range>
+   <InputMessage>Enter additional discount percent in this cell</InputMessage>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R12C5:R14C6</Range>
+   <InputMessage>Enter additional discount percent in cell at right</InputMessage>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R6C7:R7C7</Range>
+   <InputMessage>Enter Invoice Number in this cell</InputMessage>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R6C6:R8C6</Range>
+   <InputMessage>Enter Invoice Number in cell at right</InputMessage>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R8C3:R8C4</Range>
+   <InputMessage>Enter company email in this cell</InputMessage>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R7C3:R7C4,R12C3:R13C4</Range>
+   <InputMessage>Enter Phone number in this cell</InputMessage>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R6C3:R6C4,R11C3:R11C4</Range>
+   <InputMessage>Enter City, State, and Zip Code in this cell</InputMessage>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R5C3:R5C4,R10C3:R10C4</Range>
+   <InputMessage>Enter invoicing company Street Address in this cell</InputMessage>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R15C3:R15C4</Range>
+   <InputMessage>Enter customer Phone number in this cell</InputMessage>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R14C3:R14C4</Range>
+   <InputMessage>Enter customer City, State, and Zip Code in this cell</InputMessage>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R9C3:R9C7</Range>
+   <InputMessage>Enter Bill To details in cells below. Enter minimum amount for Items to qualify for an additional discount in cell F8 and additional discount percent in cell F10</InputMessage>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R10C7:R11C7</Range>
+   <InputMessage>Enter amount over which the Items qualify for an additional discount in this cell</InputMessage>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R10C5:R11C6</Range>
+   <InputMessage>Enter amount over which the Items qualify for an additional discount in cell at right</InputMessage>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R16C3</Range>
+   <InputMessage>Enter Quantity in this column under this heading. Use heading filters to find specific entries</InputMessage>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R16C4</Range>
+   <InputMessage>Enter Description in this column under this heading</InputMessage>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R16C5</Range>
+   <InputMessage>Enter Unit price in this column under this heading</InputMessage>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R16C6</Range>
+   <InputMessage>Amount is automatically updated in this column under this heading</InputMessage>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R16C7</Range>
+   <InputMessage>Discount applied is automatically determined in this column under this heading if the Amount in column E exceeds the amount entered in F8</InputMessage>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R19C6:R20C6</Range>
+   <InputMessage>Enter Credit amount in cell at right</InputMessage>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R21C6</Range>
+   <InputMessage>Enter Additional discount percent in cell at right</InputMessage>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R22C6:R23C6</Range>
+   <InputMessage>Balance due is automatically calculated in cell at right</InputMessage>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R20C3:R21C3,R20C4</Range>
+   <InputMessage>Modify phone number and email address at the end of this statement. Replace contact Name and phone or email between &lt;&gt;</InputMessage>
+  </DataValidation>
+  <DataValidation xmlns="urn:schemas-microsoft-com:office:excel">
+   <Range>R19C3</Range>
+   <InputMessage>Add Company name at the end of this statement between &lt;&gt;</InputMessage>
+  </DataValidation>
+ </Worksheet>
+</Workbook>

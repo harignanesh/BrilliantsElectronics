@@ -1,8 +1,15 @@
-import { Box, Typography, Divider } from "@mui/material";
-import BusinessIcon from "@mui/icons-material/Business";
+import { Box, Typography, Divider, TextField } from "@mui/material";
+import logo from "../assets/logo.png";
 
-const InvoiceHeader = () => {
+type Props = {
+  invoiceNo: number;
+  date: string;
+  onDateChange: (val: string) => void;
+};
+
+const InvoiceHeader = ({ invoiceNo, date, onDateChange }: Props) => {
   console.log("InvoiceHeader rendered");
+  
 
   return (
     <>
@@ -36,17 +43,28 @@ const InvoiceHeader = () => {
           <Typography variant="body2">
             <strong>GSTIN</strong> : 33ARYPL4958M1ZS
           </Typography>
+        <Typography variant="body2">
+  <strong>Invoice No</strong> : {invoiceNo}
+</Typography>
           <Typography variant="body2">
-            <strong>Invoice No</strong> : 25
-          </Typography>
-          <Typography variant="body2">
-            <strong>Date</strong> : 10-Jan-2026
+           <TextField
+  type="date"
+  size="small"
+  value={date}
+  onChange={(e) => onDateChange(e.target.value)}
+  sx={{ mt: 1 }}
+/>
           </Typography>
         </Box>
 
-        <Box display="flex" alignItems="center" justifyContent="center">
-          <BusinessIcon sx={{ fontSize: 48, color: "grey.700" }} />
-        </Box>
+       <Box display="flex" alignItems="center" justifyContent="center">
+  <img
+    src={logo}
+    alt="Company Logo"
+    style={{ width: 70, height: "auto" }}
+  />
+</Box>
+
       </Box>
 
       <Divider sx={{ mt: 3 }} />
